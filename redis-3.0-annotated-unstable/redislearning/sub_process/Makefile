@@ -1,5 +1,6 @@
 # http://www.ruanyifeng.com/blog/2015/02/make.html
 # https://www.hackerearth.com/zh/practice/notes/the-make-command-and-makefiles/
+# 常见的编译参数 https://my.oschina.net/tsh/blog/363417
 OPT ?= -g2
 
 SOURCE_CODE += $(shell find . -name '*.c')
