@@ -1,5 +1,7 @@
 windows安装Cygwin并编译redis源码的参考 https://my.oschina.net/maxid/blog/186506
 
+http://mirrors.163.com/cygwin/
+
 编译redis源码步骤
 	先编译依赖包
 		cd deps
