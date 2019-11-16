@@ -6,6 +6,8 @@
 // wait3()
 #include <sys/wait.h>
 
+#include "sub_process_func.h"
+
 pid_t global_pid=-1;
 
 int main(int argc, char* argv[]){
@@ -16,6 +18,7 @@ int main(int argc, char* argv[]){
 		exit(1);
 	}else if(child_pid == 0){
 		fprintf(stdout, "this is sub process\n");
+		Echo();
 		exit(0);
 	}else{
 		fprintf(stdout, "this is main process\n");
